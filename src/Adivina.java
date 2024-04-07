@@ -6,7 +6,7 @@ public class Adivina {
     public static void main(String[] args) {
         Scanner adivinar = new Scanner(System.in);
         int intentos = 1; // contador de intentos
-        int aleatorio= new Random().nextInt(101); // numero aleatorio generado
+        int aleatorio= new Random().nextInt(100); // numero aleatorio generado
 
       System.out.println(aleatorio);  // linea de impresion con propositos de prueba
 
